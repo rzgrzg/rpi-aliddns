@@ -5,7 +5,8 @@ aliddns(阿里云解析) dockerfile written in Golang for rpi
 #source
 chenhw2/aliyun-ddns-cli (https://github.com/chenhw2/aliyun-ddns-cli)
 
-usage
+usage:
+
 docker build -t rzgrzg/aliddns https://github.com/rzgrzg/rpi-aliddns.git
 
 docker run --restart=always --name aliddns -d \
