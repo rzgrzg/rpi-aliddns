@@ -10,6 +10,7 @@ usage:
 docker build -t rzgrzg/aliddns https://github.com/rzgrzg/rpi-aliddns.git
 
 docker run --restart=always --name aliddns -d \
+
     -e "AKID=ALIYUN's AccessKey-ID" \
     -e "AKSCT=ALIYUN's AccessKey-Secret" \
     -e "DOMAIN=ddns.aliyun.win" \    
