@@ -6,7 +6,7 @@ chenhw2/aliyun-ddns-cli (https://github.com/chenhw2/aliyun-ddns-cli)
 
 usage:
 
-docker build -t rzgrzg/aliddns https://github.com/rzgrzg/rpi-aliddns.git
+docker build -t   rzgrzg/aliddns   https://github.com/rzgrzg/rpi-aliddns.git
 
 docker run --restart=always --name aliddns -d \  
     -e "AKID=ALIYUN's AccessKey-ID" \  
